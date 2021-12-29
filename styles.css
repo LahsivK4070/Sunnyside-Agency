@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+main{
+    overflow: hidden;
+}
+
 body{
     text-align: center;
+    width: 100%;
 }
 
 header{
@@ -17,6 +22,7 @@ header{
 .header-div-1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-div-1 h1{
@@ -450,6 +456,14 @@ footer .icons ul li img{
 
     .header-div-1 .hamburger-btn{
         display: none;
+    }
+
+    .header-div-2{
+        max-width: 40rem;
+    }
+
+    .header-div-2 p{
+        word-spacing: 10px;
     }
 
     header{
