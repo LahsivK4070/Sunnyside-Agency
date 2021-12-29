@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    padding: 2rem;
+    background-image: url("./images/mobile/image-header.jpg");
+    background-size: 100%;
+}
+
+.header-div-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-div-1 h1{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.header-div-2 p{
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    color: white;
+    margin: 7rem 4rem 4rem;
+    line-height: 1.5;
+}
+
+.header-div-3 img{
+    height: 8rem;
+    padding-bottom: 8rem;
+}
+
+.container-1 img{
+    width: 100%;
+    height: 25rem;
+}
+
+.container-11 img{
+    width: 100%;
+    height: 25rem;
+}
+
+.egg-desktop{
+    display: none;
+}
+
+.egg-mobile{
+    display: block;
+}
+
+.cup-desktop{
+    display: none;
+}
+
+.cup-mobile{
+    display: block;
+}
+
+.container-2{
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container-2 .heading-1{
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.container-2 .info-1{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.container-2 .link-1{
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+}
+
+.container-22{
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container-22 .heading-11{
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.container-22 .info-11{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.container-22 .link-11{
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+}
+
+.line-1{
+    background-color: hsl(51, 100%, 50%);
+    height: 0.5rem;
+    width: 8.5rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: -0.5rem;
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+.line-1:hover{
+    background-color: hsl(61, 100%, 50%);
+}
+
+.line-22{
+    background-color: hsl(7, 99%, 70%);
+    height: 0.5rem;
+    width: 8.5rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: -0.5rem;
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+.line-22:hover{
+    background-color: hsl(7, 100%, 50%);
+}
+
+.container-3{
+    background-image: url("./images/mobile/image-graphic-design.jpg");
+    background-size: 100%;
+    padding-top: 30rem;
+}
+
+.container-3 .heading-2{
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.container-3 .info-2{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
+    font-weight: bolder;
+    line-height: 1.7;
+    padding: 0 2rem 3rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-4{
+    background-image: url("./images/mobile/image-photography.jpg");
+    background-size: 100%;
+    padding-top: 30rem;
+}
+
+.container-4 .heading-3{
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.container-4 .info-3{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
+    font-weight: bolder;
+    line-height: 1.7;
+    padding: 0 2rem 3rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-5{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container-5 .heading-4{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    font-size: 18px;
+    padding-bottom: 5rem;
+}
+
+.container-5 .test{
+    padding-bottom: 4.5rem;
+}
+
+.container-5 .test img{
+    border-radius: 100%;
+    width: 5.5rem;
+}
+
+.container-5 .test .content{
+    font-family: 'Barlow', sans-serif;
+    padding: 2.5rem 2rem;
+    color: hsl(213, 9%, 39%);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.container-5 .test .name{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 0.75rem;
+}
+
+.container-5 .test .job-desc{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.container-6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-6 img{
+    width: 100%;
+}
+
+footer{
+    background-color: hsl(169, 47%, 73%);
+    padding: 4rem 12% 7rem;
+}
+
+footer .heading{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: hsl(167, 61%, 28%);
+    margin-bottom: 3rem;
+}
+
+footer .options ul{
+    text-align: center;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: hsl(168, 34%, 41%);
+    margin-bottom: 7rem;
+    font-weight: 600;
+}
+
+footer .options ul li{
+    padding: 0 2rem;
+}
+
+footer .options a{
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+
+footer .options a:hover{
+    color: white;
+}
+
+footer .icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+footer .icons ul a{
+    padding: 0 1rem;
+}
+
+footer .icons ul li img{
+    width: 1.5rem;
+}
+
+/* .arrow{
+    display: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 91.3%;
+    transform: translate(-91.3%);
+    margin-top: 0.75rem;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px white solid;
+    border-bottom: 10px white solid;
+    z-index: 1;
+} */
+
+.header-div-1 div{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin: 2rem 0;
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 2rem;
+    font-size: 18px;
+    z-index: 1;
+    color: hsl(232, 10%, 55%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.dropdown ul{
+    list-style: none;
+}
+
+.dropdown ul li{
+    padding: 1rem;
+}
+
+.dropdown ul li a{
+    color: hsl(232, 10%, 55%);
+    text-decoration: none;
+}
+
+.dropdown ul li a:hover{
+    color: black;
+}
+
+.dropdown button{
+    padding: 1rem 1.5rem;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Fraunces', serif;
+}
+
+.dropdown button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px hsl(51, 100%, 49%) solid;
+}
+
+.milk-mobile, .orange-mobile, .cone-mobile, .sugar-mobile{
+    display: block;
+}
+
+.milk-desktop, .orange-desktop, .cone-desktop, .sugar-desktop{
+    display: none;
+}
+
+
+/* desktop design */
+
+@media (min-width: 1150px) {
+    
+    .header-div-1 div{
+        margin-top: 1rem;
+        display: block;
+        font-weight: 600;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .dropdown{
+       visibility: collapse;
+    }
+
+    .header-div-1 ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+   
+    .header-div-1 ul li{
+        margin-left: 3rem;
+    }
+
+    .header-div-1 ul li a:hover{
+        color: rgba(255, 255, 255, 0.541);
+    }
+
+    .header-div-1 div button{
+        border: none;
+        padding: 0.75rem 1rem;
+        font-family: 'Fraunces', serif;
+        font-weight: 600;
+        background-color: white;
+        border-radius: 40px;
+    }
+
+    .header-div-1 div button:hover{
+        background-color: rgba(255, 255, 255, 0.295);
+        color: white;
+    }
+
+    .header-div-1 ul a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .header-div-1 .hamburger-btn{
+        display: none;
+    }
+
+    header{
+        background-image: url("./images/desktop/image-header.jpg");
+        background-size: 100%;
+    }
+
+    .egg-desktop{
+        display: block;
+    }
+
+    .egg-mobile{
+        display: none;
+    }
+
+    .combined-1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .combined-2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .combined-3{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .combined-4{
+        padding: 2rem 4rem;
+        display: flex;
+    }
+
+    .cup-desktop{
+        display: block;
+    }
+
+    .cup-mobile{
+        display: none;
+    }
+
+    .container-1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+    }
+
+    .container-1 img{
+        height: 33rem;
+    }
+
+    .container-2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-top: 5rem;
+        padding: 1rem 6rem;
+        text-align: left;
+    }
+
+    .container-2 .info-1{
+        font-size: 18px;
+    }
+
+    .container-11 img{
+        height: 33rem;
+    }
+
+    .container-22{
+        margin-top: 5rem;
+        padding: 1rem 6rem;
+        text-align: left;
+    }
+
+    .container-22 .info-11{
+        font-size: 18px;
+    }
+
+    .container-3{
+        background-image: url("./images/desktop/image-graphic-design.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 18rem 3rem 4rem;
+    }
+
+    .container-4{
+        background-image: url("./images/desktop/image-photography.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 18rem 3rem 4rem;
+    }
+
+    .container-3 .info-2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .container-4 .info-3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .container-5 .test .content{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .milk-mobile, .orange-mobile, .cone-mobile, .sugar-mobile{
+        display: none;
+    }
+
+    .milk-desktop, .orange-desktop, .cone-desktop, .sugar-desktop{
+        display: block;
+        
+    }
+
+    .container-6{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .line-1, .line-22{
+        left: 0;
+        transform: translate(0);
+    }
+}
