@@ -10,7 +10,8 @@ body{
 header{
     padding: 2rem;
     background-image: url("./images/mobile/image-header.jpg");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-div-1{
@@ -25,18 +26,23 @@ header{
     font-size: 30px;
 }
 
+.header-div-2{
+    max-width: 20rem;
+    margin: 9rem auto 4rem;
+    text-align: center;
+}
+
 .header-div-2 p{
     font-size: 44px;
     font-weight: 900;
     font-family: 'Fraunces', serif;
     color: white;
-    margin: 7rem 4rem 4rem;
     line-height: 1.5;
 }
 
 .header-div-3 img{
-    height: 8rem;
-    padding-bottom: 8rem;
+    height: 10rem;
+    padding-bottom: 5rem;
 }
 
 .container-1 img{
@@ -163,8 +169,9 @@ header{
 
 .container-3{
     background-image: url("./images/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 30rem;
+    padding-top: 85%;
 }
 
 .container-3 .heading-2{
@@ -188,8 +195,9 @@ header{
 
 .container-4{
     background-image: url("./images/mobile/image-photography.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 30rem;
+    padding-top: 85%;
 }
 
 .container-4 .heading-3{
